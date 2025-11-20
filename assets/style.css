@@ -3,10 +3,9 @@ body {
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
     background-color: #cbd6d8;
-    color: rgba(0, 0, 0, 0.6); /* Default text color for light mode */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 body.dark-mode {
     background-color: #333; 
     color: #fff;
@@ -23,7 +22,8 @@ body.dark-mode {
   transition: transform 0.3s ease;
 }
 .theme-btn:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
+   
 }
 #theme-icon {
   width: 100px;            
@@ -34,15 +34,17 @@ nav {
     font-size: 20px;  
     padding: 10px;
     display: flex;
-    left: 50%;               /* move to the middle */
-    transform: translateX(-50%); /* pull it back by half its width */
+    left: 50%;             
+    transform: translateX(-50%); 
     align-items: center;
     justify-content: center; 
     position: fixed;
     top: 0;
     width: 30%;
-    z-index: 1000; /* Ensures it stays above other content */
-    transition: background-color 0.3s ease; /* Smooth transition for nav */
+    z-index: 1000;
+    transition: background-color 0.3s ease; 
+    border-radius: 5px 5px 50px 50px; 
+    margin-top: 5px;
 }
 nav a {
     font-family: 'Courier New', Courier, monospace;
@@ -69,21 +71,16 @@ body.dark-mode .section {
     color: #ffffff;
     text-shadow: 2px 2px 4px #333;
 }
-
-/* Default (light mode) background images */
 .section1 { background-image: url('images/bg1.png'); }
 .section2 { background-image: url('images/bg2.png'); }
 .section3 { background-image: url('images/bg1.png'); }
 .section4 { background-image: url('images/bg2\(fr\).png'); }
 .section5 { background-image: url('images/FAQs\ page\ 3.png'); }
-
-/* Dark mode background images - Fixed selectors */
 body.dark-mode .section1 { background-image: url('images/bg1 (dark).png'); }
 body.dark-mode .section2 { background-image: url('images/bg2 (dark).png'); }
 body.dark-mode .section3 { background-image: url('images/bg1 (dark).png'); }
 body.dark-mode .section4 { background-image: url('images/bg2\ \(dark-fr\).png'); }
 body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'); }
-
 .section1 {
     h1 {
         font-size: 48px;
@@ -123,21 +120,21 @@ body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'
     margin-top: 50px; 
 }
 .icon-link {
-    position: relative; /* Allows absolute positioning of tooltip */
+    position: relative;
     display: inline-block;
 }
 .icon {
-    width: 400px; /* Set a base size for icons */
+    width: 400px;
     height: 400px;
     object-fit: contain;
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    transition: transform 0.3s ease;
 }
 .icon:hover {
-    transform: scale(1.2); /* Enlarges the icon on hover */
+    transform: scale(1.2);
 }
 .tooltip {
     position: absolute;
-    bottom: 100%; /* Positions tooltip above the icon */
+    bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.532);
@@ -149,7 +146,7 @@ body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    pointer-events: none; /* Prevents tooltip from interfering with clicks */
+    pointer-events: none; 
 }
 .icon-link:hover .tooltip {
     opacity: 1;
