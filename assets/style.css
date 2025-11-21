@@ -157,10 +157,11 @@ body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'
     flex-direction: column; /* Ensure vertical stacking */
     justify-content: flex-start;
     align-items: center;
+    text-align: justify;
     padding-top: 100px; /* Add top padding to account for fixed nav */
 }
 .section3 .collapse {
-    width: 80%;
+    width: 50%;
     margin-bottom: 10px;
     border-color: #333;
     background-color: #ffffff76;
