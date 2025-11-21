@@ -11,23 +11,23 @@ body.dark-mode {
     color: #fff;
 }
 .theme-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: none;      
-  border: none;           
-  cursor: pointer;
-  outline: none;
-  padding: 0;             
-  transition: transform 0.3s ease;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;      
+    border: none;           
+    cursor: pointer;
+    outline: none;
+    padding: 0;             
+    transition: transform 0.3s ease;
 }
 .theme-btn:hover {
-  transform: scale(1.1);
-   
+    transform: scale(1.1);
 }
 #theme-icon {
-  width: 100px;            
-  filter: drop-shadow(0 0 2px var(--accent-color));}
+    width: 100px;            
+    filter: drop-shadow(0 0 2px var(--accent-color));
+}
 nav {
     background-color: #00000087;
     text-align: center;
@@ -64,8 +64,7 @@ nav a {
     color: rgba(0, 0, 0, 0.6);
     text-align: center;
     transition: color 0.3s ease; 
-    text-shadow: #333 1px 1px 1px;
-
+    text-shadow: #ffffff 1px 1px 1px;
 }
 body.dark-mode .section {
     color: #ffffff;
@@ -74,43 +73,43 @@ body.dark-mode .section {
 .section1 { background-image: url('images/bg1.png'); }
 .section2 { background-image: url('images/bg2.png'); }
 .section3 { background-image: url('images/bg1.png'); }
-.section4 { background-image: url('images/bg2\(fr\).png'); }
-.section5 { background-image: url('images/FAQs\ page\ 3.png'); }
+.section4 { background-image: url('images/bg2(fr).png'); }
+.section5 { background-image: url('images/FAQs page 3.png'); }
 body.dark-mode .section1 { background-image: url('images/bg1 (dark).png'); }
 body.dark-mode .section2 { background-image: url('images/bg2 (dark).png'); }
 body.dark-mode .section3 { background-image: url('images/bg1 (dark).png'); }
-body.dark-mode .section4 { background-image: url('images/bg2\ \(dark-fr\).png'); }
+body.dark-mode .section4 { background-image: url('images/bg2 (dark-fr).png'); }
 body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'); }
+.section1 h1 {
+    font-size: 48px;
+    margin-bottom: -20px;
+}
+.section1 p {
+    text-align: justify;
+    width: 80%;
+    margin: 20px auto;
+}
 .section1 {
-    h1 {
-        font-size: 48px;
-        margin-bottom: -20px;
-    }
-    p {
-        text-align: justify;
-        width: 80%;
-        margin: 20px auto;
-    }
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+.section2 h1 {
+    font-size: 48px;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 15%;
+    margin-bottom: -20px;
+}
+.section2 p {
+    text-align: justify;
+    width: 45%;
+    margin-left: 10%;
 }
 .section2 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    h1 {
-        font-size: 48px;
-        text-align: left;
-        margin-left: 20%;
-        margin-top: 15%;
-        margin-bottom: -20px;
-    }
-    p {
-        text-align: justify;
-        width: 45%;
-        margin-left: 10%;
-    }
 }
 .icon-row {
     display: flex;
@@ -151,4 +150,22 @@ body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'
 .icon-link:hover .tooltip {
     opacity: 1;
     visibility: visible;
+}
+
+/* Accordion Styles for Section 3 */
+.section3 {
+    flex-direction: column; /* Ensure vertical stacking */
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px; /* Add top padding to account for fixed nav */
+}
+.section3 .collapse {
+    width: 80%;
+    margin-bottom: 10px;
+    border-color: #333;
+    background-color: #ffffff76;
+}
+body.dark-mode .section3 .collapse{
+    border-color: #446c76;
+    background-color: #122639cb; 
 }
