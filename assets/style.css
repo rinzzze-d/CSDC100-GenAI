@@ -160,6 +160,16 @@ body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'
     text-align: justify;
     padding-top: 100px; /* Add top padding to account for fixed nav */
 }
+.section3 h1 {
+    font-size: 36px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+body.dark-mode .section3 h1 {
+    color: #ffffff;
+}
 .section3 .collapse {
     width: 50%;
     margin-bottom: 10px;
