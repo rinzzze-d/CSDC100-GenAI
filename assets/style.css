@@ -64,7 +64,7 @@ nav a {
     color: rgba(0, 0, 0, 0.6);
     text-align: center;
     transition: color 0.3s ease; 
-    text-shadow: #001079 1px 1px 2px;
+    text-shadow: #1b1d2e 1px 1px 2px;
 }
 body.dark-mode .section {
     color: #ffffff;
