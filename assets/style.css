@@ -73,13 +73,23 @@ body.dark-mode .section {
 .section1 { background-image: url('images/bg1.png'); }
 .section2 { background-image: url('images/bg2.png'); }
 .section3 { background-image: url('images/bg1.png'); }
-.section4 { background-image: url('images/bg2(fr).png'); }
-.section5 { background-image: url('images/FAQs page 3.png'); }
+.section4 { background-image: url('images/bg1.png'); }
+.section5 { background-image: url('images/bg2(fr).png'); }
+.section6 { background-image: url('images/FAQs page 3.png'); }
+.section7 { background-image: url('images/bg1.png'); }
+.section8 { background-image: url('images/bg2(fr).png'); }
+.section9 { background-image: url('images/FAQs page 3.png'); }
+.section10 { background-image: url('images/bg1.png'); }
 body.dark-mode .section1 { background-image: url('images/bg1 (dark).png'); }
 body.dark-mode .section2 { background-image: url('images/bg2 (dark).png'); }
 body.dark-mode .section3 { background-image: url('images/bg1 (dark).png'); }
-body.dark-mode .section4 { background-image: url('images/bg2 (dark-fr).png'); }
-body.dark-mode .section5 { background-image: url('images/FAQs page 3 (dark).png'); }
+body.dark-mode .section4 { background-image: url('images/bg1 (dark).png'); }
+body.dark-mode .section5 { background-image: url('images/bg2 (dark-fr).png'); }
+body.dark-mode .section6 { background-image: url('images/FAQs page 3 (dark).png'); }
+body.dark-mode .section7 { background-image: url('images/bg1 (dark).png'); }
+body.dark-mode .section8 { background-image: url('images/bg2 (dark-fr).png'); }
+body.dark-mode .section9 { background-image: url('images/FAQs page 3 (dark).png'); }
+body.dark-mode .section10 { background-image: url('images/bg1 (dark).png'); }
 .section1 h1 {
     font-size: 48px;
     margin-bottom: -20px;
@@ -174,12 +184,14 @@ body.dark-mode .section3 .collapse{
     border-color: #446c76;
     background-color: #122639cb; 
 }
-
-.section3 img {
+.section4 {
+    flex-direction: column;
+}
+.section4 img {
     margin-bottom: -50px;
 }
 
-.section3 img:hover {
+.section4 img:hover {
     transform: scale(1.2);
     transition: 0.3ms;
 }
