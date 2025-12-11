@@ -193,9 +193,98 @@ body.dark-mode .section3 .collapse{
 
 .section4 img:hover {
     transform: scale(1.2);
-    transition: 0.3ms;
+    transition: 0.5ms;
 }
 .section4 .icon-row img {
     margin-left: -15px;
     margin-right: -15px;
+}
+
+.section5  {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    text-shadow: #ffffff 1px 1px 2px;
+    padding: 50px;
+}
+
+body.dark-mode .section5 h1 {
+    color: #ffffff;
+}
+body.dark-mode .section5 p {
+    color: #ffffff;
+    font-weight: normal;
+}
+.section5 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.section5 p {
+    width: 80%;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.rounded-box {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    border-color: #333;
+    border: 2px solid;
+    background-color: #ffffff76;
+    border-radius: 8px; 
+    padding: 1rem;
+    margin: 0 auto; 
+}
+.rounded-box {
+    border-color: #446c76;
+    background-color: #122639cb; 
+    text-shadow: #ffffff 1px 1px 2px;
+}
+
+.rounded-box h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.rounded-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.section10 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    padding-top: 100px; 
+    text-shadow: #ffffff 1px 1px 2px;
+}
+body.dark-mode .section10 h1 {
+    color: #ffffff;
+}
+.section10 .collapse {
+    width: 90%;
+    margin-bottom: 10px;
+    border-color: #333;
+    background-color: #ffffff76;
+    margin-top: -10px;
+}
+body.dark-mode .section10 .collapse{
+    border-color: #446c76;
+    background-color: #122639cb; 
+}
+.section10 .rounded-box {
+    margin-top: -55px;
+    margin-bottom: 20px;
+}
+.section10 .rounded-box h1 {
+    font-size: 20px;
+    text-align: center;
+}
+.section10 .rounded-box p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
 }

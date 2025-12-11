@@ -33,3 +33,19 @@ themeToggle.addEventListener('click', () => {
     applyTheme(isDark);
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const pillarImages = document.querySelectorAll('.section4 img');
+    pillarImages.forEach((img, index) => {
+        img.addEventListener('click', () => {
+            const targetSectionId = `section${5 + index}`;
+            const targetSection = document.getElementById(targetSectionId);
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'     
+                });
+            }
+        });
+    });
+});
