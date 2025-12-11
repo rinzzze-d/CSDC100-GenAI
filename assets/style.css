@@ -80,6 +80,7 @@ body.dark-mode .section {
 .section8 { background-image: url('images/bg2(fr).png'); }
 .section9 { background-image: url('images/FAQs page 3.png'); }
 .section10 { background-image: url('images/bg1.png'); }
+.section11 { background-image: url('images/bg1.png'); }
 body.dark-mode .section1 { background-image: url('images/bg1 (dark).png'); }
 body.dark-mode .section2 { background-image: url('images/bg2 (dark).png'); }
 body.dark-mode .section3 { background-image: url('images/bg1 (dark).png'); }
@@ -90,6 +91,7 @@ body.dark-mode .section7 { background-image: url('images/bg1 (dark).png'); }
 body.dark-mode .section8 { background-image: url('images/bg2 (dark-fr).png'); }
 body.dark-mode .section9 { background-image: url('images/FAQs page 3 (dark).png'); }
 body.dark-mode .section10 { background-image: url('images/bg1 (dark).png'); }
+body.dark-mode .section11 { background-image: url('images/bg1 (dark).png'); }
 .section1 h1 {
     font-size: 48px;
     margin-bottom: -20px;
@@ -292,4 +294,35 @@ body.dark-mode .section10 .collapse{
     font-size: 15px;
     line-height: 1.6;
     text-align: justify;
+}
+.section11 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    padding-top: 100px; 
+    text-shadow: #ffffff 1px 1px 2px;
+}
+body.dark-mode .section11 h1 {
+    color: #ffffff;
+}
+.section11 .rounded-box {
+    margin-top: -55px;
+    margin-bottom: 20px;
+    width: 95%;
+}
+.section11 .rounded-box h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+.section11 .rounded-box p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+.indent {
+text-indent: 25px;
 }
