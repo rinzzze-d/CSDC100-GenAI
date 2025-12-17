@@ -252,11 +252,11 @@ body.dark-mode .rounded-box {
 }
 
 .rounded-box h1 {
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 .rounded-box p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     text-align: justify;
 }
